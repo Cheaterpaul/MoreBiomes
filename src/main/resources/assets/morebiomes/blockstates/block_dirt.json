@@ -1,0 +1,10 @@
+{
+    "variants":
+    {
+        "variant=yellow": { "model": "morebiomes:block_dirt_yellow" },
+        "variant=red": { "model": "morebiomes:block_dirt_red" },
+        "variant=blue": { "model": "morebiomes:block_dirt_blue" },
+        "variant=green": { "model": "morebiomes:block_dirt_green" }
+
+    }
+}

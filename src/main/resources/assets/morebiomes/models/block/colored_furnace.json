@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+    	"particle": "morebiomes:blocks/machines/colored_furnace_front_off",
+        "up": "morebiomes:blocks/machines/colored_furnace_top",
+        "down": "morebiomes:blocks/machines/colored_furnace_top",
+        "north": "morebiomes:blocks/machines/colored_furnace_front_off",
+        "west": "morebiomes:blocks/machines/colored_furnace_side",
+        "east": "morebiomes:blocks/machines/colored_furnace_side",
+        "south": "morebiomes:blocks/machines/colored_furnace_side"
+    }
+}

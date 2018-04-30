@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"AAA",
+		"AAA"
+		
+	],
+	"key": {
+		"A": 
+		{
+			"item": "morebiomes:ingot_red"
+		}
+	},
+	"result": {
+		"item": "morebiomes:block_block",
+		"data": 3
+	}
+}
+			

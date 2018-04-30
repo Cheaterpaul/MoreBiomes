@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "variant=yellow": { "model": "morebiomes:ore_overworld_yellow" },
+        "variant=red": { "model": "morebiomes:ore_overworld_red" },
+        "variant=blue": { "model": "morebiomes:ore_overworld_blue" },
+        "variant=green": { "model": "morebiomes:ore_overworld_green" }
+    }
+}

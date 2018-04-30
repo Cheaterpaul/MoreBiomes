@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"A"
+		
+	],
+	"key": {
+		"A": 
+		{
+			"item": "morebiomes:block_block",
+			"data": 1
+		}
+	},
+	"result": {
+		"item": "morebiomes:ingot_blue",
+		"count": 9
+	}
+}
+			
