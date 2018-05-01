@@ -33,6 +33,17 @@ tile.ore_overworld_blue.name=Blue Ore
 tile.ore_overworld_green.name=Green Ore
 tile.ore_overworld_red.name=Red Ore
 
+tile.flower_cornflower.name=Corn Flower
+tile.flower_icyiris.name=Icy Iris
+tile.flower_bluehydrangea.name=Blue Hydrangea
+tile.flower_bromeliad.name=Bromeliad
+tile.flowermarigold.name=Marigold
+tile.flower_zinnia.name=Zinnia
+tile.flower_hydragea.name=Hydragea
+tile.flower_daylily.name=Daylily
+tile.flower_kelp.name=Kelp
+tile.flower_goldenrod.name=Goldenrod
+
 item.ingot_red.name=Red Ingot
 item.ingot_blue.name=Blue Ingot
 item.ingot_yellow.name=Yellow Ingot

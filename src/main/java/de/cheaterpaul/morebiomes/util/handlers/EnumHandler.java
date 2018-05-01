@@ -82,27 +82,34 @@ public class EnumHandler
 		
 	}
 	
-	public static enum EnumFlowerColor implements IStringSerializable
+	public static enum EnumFlowerType implements IStringSerializable
 	{
-		YELLOW(0, "yellow"),
-		BLUE(1, "blue"),
-		GREEN(2, "green"),
-		RED(3, "red");
+		Cornflower(0, "cornflower", "blue"),
+		IcyIris(1, "icyiris", "blue"),
+		BlueHydrangea(2, "bluehydrangea", "blue"),
+		bromeliad(3, "bromeliad", "red"),
+		Marigold(4, "marigold", "red"),
+		Zinnia(5, "zinnia", "green"),
+		Hydrangea(6, "hydragea", "green"),
+		Daylily(7, "daylily", "green"),
+		Kelp(8, "kelp", "yellow"),
+		Goldenrod(9, "goldenrod", "yellow");
 		
-		private static final EnumFlowerColor[] META_LOOKUP = new EnumFlowerColor[values().length];
+		private static final EnumFlowerType[] META_LOOKUP = new EnumFlowerType[values().length];
 		private final int meta;
-		private final String name, unlocializedName;
+		private final String name, unlocializedName, color;
 		
-		private EnumFlowerColor(int meta, String name) 
+		private EnumFlowerType(int meta, String name, String color) 
 		{
-			this(meta, name, name);
+			this(meta, name, name, color);
 		}
 		
-		private EnumFlowerColor(int meta, String name, String unlocializedName) 
+		private EnumFlowerType(int meta, String name, String unlocializedName, String color) 
 		{
 			this.meta = meta;
 			this.name = name;
 			this.unlocializedName = unlocializedName;
+			this.color = color;
 		}
 		
 		@Override
@@ -127,19 +134,18 @@ public class EnumHandler
 			return this.name;
 		}
 		
-		public static EnumFlowerColor byMetadata(int meta)
+		public static EnumFlowerType byMetadata(int meta)
 		{
 			return META_LOOKUP[meta];
 		}
 		
 		static
 		{
-			for(EnumFlowerColor enumflowercolor : values())
+			for(EnumFlowerType enumflowertype : values())
 			{
-				META_LOOKUP[enumflowercolor.getMeta()] = enumflowercolor;
+				META_LOOKUP[enumflowertype.getMeta()] = enumflowertype;
 			}
 		}
-		
 		
 	}
 }

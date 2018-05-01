@@ -41,20 +41,6 @@ public class ColoredBlockBase extends Block implements IHasModel, IMetaName {
 		ItemInit.ITEMS.add(new ItemBlockVariants(this).setRegistryName(this.getRegistryName()));
 		this.name = name;
 	}
-	
-	public static EnumHandler.EnumType getEnum(int meta){
-		switch(meta) {
-    	case 0:
-    		return EnumHandler.EnumType.YELLOW;
-		case 1:
-    		return EnumHandler.EnumType.BLUE;
-		case 2:
-    		return EnumHandler.EnumType.GREEN;
-		case 3:
-    		return EnumHandler.EnumType.RED;
-		}
-		return EnumHandler.EnumType.BLUE;
-	}
 
 	@Override
 	public int damageDropped(IBlockState state) 

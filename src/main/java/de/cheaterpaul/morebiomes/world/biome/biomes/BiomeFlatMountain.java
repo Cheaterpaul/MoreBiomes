@@ -13,7 +13,6 @@ public class BiomeFlatMountain extends Biome{
 		this.decorator = this.createBiomeDecorator();
 		this.topBlock = topBlock;
 		this.fillerBlock = fillerBlock;
-		this.addDefaultFlowers();
 		
 		this.decorator.treesPerChunk = 0;
 	}

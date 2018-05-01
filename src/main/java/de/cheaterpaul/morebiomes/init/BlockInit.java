@@ -3,6 +3,7 @@ package de.cheaterpaul.morebiomes.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import de.cheaterpaul.morebiomes.objects.blocks.ColoredFlower;
 import de.cheaterpaul.morebiomes.objects.blocks.machines.ColoredFurnace;
 import de.cheaterpaul.morebiomes.objects.blocks.simpleblocks.ColoredBlock;
 import de.cheaterpaul.morebiomes.objects.blocks.simpleblocks.ColoredDirt;
@@ -25,6 +26,8 @@ public class BlockInit {
 	public static final Block Colored_Grass = new ColoredGrass("block_grass");
 	
 	public static final Block Colored_Ore = new ColoredOre("ore_overworld", "overworld");
+	
+	public static final Block Colored_Flower = new ColoredFlower("flower");
 	
 	// Crafting
 	

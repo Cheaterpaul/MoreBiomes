@@ -78,7 +78,7 @@ public class ColoredGrass extends BlockGrass implements IHasModel, IGrowable, IM
         	if (!worldIn.isAreaLoaded(pos, 3)) return;
             if (worldIn.getLightFromNeighbors(pos.up()) < 4 && worldIn.getBlockState(pos.up()).getLightOpacity(worldIn, pos.up()) > 2)
             {    
-            	worldIn.setBlockState(pos, BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, ColoredBlockBase.getEnum(this.getMetaFromState(getActualState(state, worldIn, pos)))));
+            	worldIn.setBlockState(pos, BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, getEnum(this.getMetaFromState(getActualState(state, worldIn, pos)))));
             }
             else
             {
@@ -98,7 +98,7 @@ public class ColoredGrass extends BlockGrass implements IHasModel, IGrowable, IM
 
                         if (iblockstate1.getBlock() == BlockInit.Colored_Dirt && worldIn.getLightFromNeighbors(blockpos.up()) >= 4 && iblockstate.getLightOpacity(worldIn, pos.up()) <= 2)
                         {
-                            worldIn.setBlockState(blockpos, this.getDefaultState().withProperty(VARIANT, ColoredBlockBase.getEnum(iblockstate1.getBlock().getMetaFromState(iblockstate1))));
+                            worldIn.setBlockState(blockpos, this.getDefaultState().withProperty(VARIANT, getEnum(iblockstate1.getBlock().getMetaFromState(iblockstate1))));
                         }
                     }
                 }
@@ -224,6 +224,20 @@ public class ColoredGrass extends BlockGrass implements IHasModel, IGrowable, IM
 		{
 			Main.proxy.registerVariantRenderer(Item.getItemFromBlock(this), i, "block_grass" + "_" + EnumHandler.EnumType.values()[i].getName(), "inventory");
 		}
+	}
+	
+	public static EnumHandler.EnumType getEnum(int meta){
+		switch(meta) {
+    	case 0:
+    		return EnumHandler.EnumType.YELLOW;
+		case 1:
+    		return EnumHandler.EnumType.BLUE;
+		case 2:
+    		return EnumHandler.EnumType.GREEN;
+		case 3:
+    		return EnumHandler.EnumType.RED;
+		}
+		return EnumHandler.EnumType.BLUE;
 	}
 	
 }

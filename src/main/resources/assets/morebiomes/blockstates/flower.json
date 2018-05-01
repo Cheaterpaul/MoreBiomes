@@ -1,0 +1,15 @@
+{
+    "variants":
+    {
+        "type=cornflower": { "model": "morebiomes:flower_cornflower" },
+        "type=icyiris": { "model": "morebiomes:flower_icyiris" },
+        "type=bluehydrangea": { "model": "morebiomes:flower_bluehydrangea" },
+        "type=bromeliad": { "model": "morebiomes:flower_bromeliad" },
+        "type=marigold": { "model": "morebiomes:flower_marigold" },
+        "type=zinnia": { "model": "morebiomes:flower_zinnia" },
+        "type=hydragea": { "model": "morebiomes:flower_hydragea" },
+        "type=daylily": { "model": "morebiomes:flower_daylily" },
+        "type=kelp": { "model": "morebiomes:flower_kelp" },
+        "type=goldenrod": { "model": "morebiomes:flower_goldenrod" }
+    }
+}
