@@ -1,11 +1,5 @@
 package de.cheaterpaul.morebiomes;
 
-import de.cheaterpaul.morebiomes.init.BlockInit;
-import de.cheaterpaul.morebiomes.init.ItemInit;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-
 public class Reference {
 
 	public static final String CLIENT = "de.cheaterpaul.morebiomes.proxy.ClientProxy";

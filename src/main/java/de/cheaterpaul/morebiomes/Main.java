@@ -1,12 +1,8 @@
 package de.cheaterpaul.morebiomes;
 
-import de.cheaterpaul.morebiomes.init.BlockInit;
-import de.cheaterpaul.morebiomes.init.ItemInit;
 import de.cheaterpaul.morebiomes.proxy.ServerProxy;
 import de.cheaterpaul.morebiomes.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;

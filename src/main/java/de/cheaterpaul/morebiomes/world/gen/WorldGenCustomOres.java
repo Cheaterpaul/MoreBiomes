@@ -19,6 +19,7 @@ public class WorldGenCustomOres implements IWorldGenerator{
 	private WorldGenerator ore_overworld_yellow, ore_overworld_red, ore_overworld_blue, ore_overworld_green;
 	
 	public WorldGenCustomOres() {
+		
 		ore_overworld_yellow = new WorldGenMinable(BlockInit.Colored_Ore.getDefaultState().withProperty(ColoredOre.VARIANT, EnumHandler.EnumType.YELLOW), 9);
 		ore_overworld_blue = new WorldGenMinable(BlockInit.Colored_Ore.getDefaultState().withProperty(ColoredOre.VARIANT, EnumHandler.EnumType.BLUE), 9);
 		ore_overworld_red = new WorldGenMinable(BlockInit.Colored_Ore.getDefaultState().withProperty(ColoredOre.VARIANT, EnumHandler.EnumType.RED), 9);

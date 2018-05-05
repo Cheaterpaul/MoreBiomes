@@ -15,10 +15,10 @@ public class BiomInit {
 	
 	public static final PropertyEnum<EnumHandler.EnumType> VARIANT = PropertyEnum.<EnumHandler.EnumType>create("variant", EnumHandler.EnumType.class);
 	
-	public static final Biome FLATMOUNTAINYELLOW = new BiomeFlatMountain(BlockInit.Colored_Grass.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.YELLOW), BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.YELLOW), 16763904, 1);
-	public static final Biome FLATMOUNTAINRED = new BiomeFlatMountain(BlockInit.Colored_Grass.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.RED), BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.RED), 16711680, 2);
-	public static final Biome FLATMOUNTAINBLUE = new BiomeFlatMountain(BlockInit.Colored_Grass.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.BLUE), BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.BLUE), 255, 3);
-	public static final Biome FLATMOUNTAINGREEN = new BiomeFlatMountain(BlockInit.Colored_Grass.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.GREEN), BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.GREEN), 65280, 4);
+	public static final Biome FLATMOUNTAINYELLOW = new BiomeFlatMountain(BlockInit.Colored_Grass.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.YELLOW), BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.YELLOW), 16763904, "yellow");
+	public static final Biome FLATMOUNTAINRED = new BiomeFlatMountain(BlockInit.Colored_Grass.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.RED), BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.RED), 16711680, "red");
+	public static final Biome FLATMOUNTAINBLUE = new BiomeFlatMountain(BlockInit.Colored_Grass.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.BLUE), BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.BLUE), 255, "blue");
+	public static final Biome FLATMOUNTAINGREEN = new BiomeFlatMountain(BlockInit.Colored_Grass.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.GREEN), BlockInit.Colored_Dirt.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.GREEN), 65280, "green");
 	
 	public static void registerBiomes(){
 		

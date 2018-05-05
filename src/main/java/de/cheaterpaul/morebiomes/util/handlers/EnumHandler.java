@@ -1,8 +1,6 @@
 package de.cheaterpaul.morebiomes.util.handlers;
 
 import de.cheaterpaul.morebiomes.Reference;
-import net.minecraft.block.BlockFlower;
-import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -87,7 +85,7 @@ public class EnumHandler
 		Cornflower(0, "cornflower", "blue"),
 		IcyIris(1, "icyiris", "blue"),
 		BlueHydrangea(2, "bluehydrangea", "blue"),
-		bromeliad(3, "bromeliad", "red"),
+		Bromeliad(3, "bromeliad", "red"),
 		Marigold(4, "marigold", "red"),
 		Zinnia(5, "zinnia", "green"),
 		Hydrangea(6, "hydragea", "green"),
@@ -97,19 +95,18 @@ public class EnumHandler
 		
 		private static final EnumFlowerType[] META_LOOKUP = new EnumFlowerType[values().length];
 		private final int meta;
-		private final String name, unlocializedName, color;
+		private final String name, unlocializedName;
 		
-		private EnumFlowerType(int meta, String name, String color) 
+		private EnumFlowerType(int meta, String name) 
 		{
-			this(meta, name, name, color);
+			this(meta, name, name);
 		}
 		
-		private EnumFlowerType(int meta, String name, String unlocializedName, String color) 
+		private EnumFlowerType(int meta, String name, String unlocializedName) 
 		{
 			this.meta = meta;
 			this.name = name;
 			this.unlocializedName = unlocializedName;
-			this.color = color;
 		}
 		
 		@Override

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"A"
+		
+	],
+	"key": {
+		"A": 
+		{
+			"item": "morebiomes:flower",
+			"data": 7
+		}
+	},
+	"result": {
+		"item": "minecraft:dye",
+		"data": 2
+	}
+}
+			

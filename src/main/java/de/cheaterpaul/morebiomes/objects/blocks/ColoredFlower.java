@@ -27,7 +27,6 @@ import net.minecraft.world.World;
 
 public class ColoredFlower extends BlockBush implements IHasModel, IMetaName{
 
-public static final PropertyEnum<EnumHandler.EnumFlowerType> TYPE = PropertyEnum.<EnumHandler.EnumFlowerType>create("type", EnumHandler.EnumFlowerType.class);
 	
 	private String name;
 	
@@ -35,7 +34,7 @@ public static final PropertyEnum<EnumHandler.EnumFlowerType> TYPE = PropertyEnum
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Main.MoreBiomesBlocksTab);
-		setDefaultState(this.blockState.getBaseState().withProperty(TYPE, EnumHandler.EnumFlowerType.Cornflower));
+		setDefaultState(this.blockState.getBaseState().withProperty(BlockInit.TYPE, EnumHandler.EnumFlowerType.Cornflower));
 		
 		
 		BlockInit.BLOCKS.add(this);
@@ -46,19 +45,19 @@ public static final PropertyEnum<EnumHandler.EnumFlowerType> TYPE = PropertyEnum
 	@Override
 	public int damageDropped(IBlockState state) 
 	{
-		return ((EnumHandler.EnumFlowerType)state.getValue(TYPE)).getMeta();
+		return ((EnumHandler.EnumFlowerType)state.getValue(BlockInit.TYPE)).getMeta();
 	}
 	
 	@Override
 	public int getMetaFromState(IBlockState state) 
 	{
-		return ((EnumHandler.EnumFlowerType)state.getValue(TYPE)).getMeta();
+		return ((EnumHandler.EnumFlowerType)state.getValue(BlockInit.TYPE)).getMeta();
 	}
 	
 	@Override
 	public IBlockState getStateFromMeta(int meta) 
 	{
-		return this.getDefaultState().withProperty(TYPE, EnumHandler.EnumFlowerType.byMetadata(meta));
+		return this.getDefaultState().withProperty(BlockInit.TYPE, EnumHandler.EnumFlowerType.byMetadata(meta));
 	}
 	
 	@Override
@@ -79,7 +78,7 @@ public static final PropertyEnum<EnumHandler.EnumFlowerType> TYPE = PropertyEnum
 	@Override
 	protected BlockStateContainer createBlockState()
 	{
-		return new BlockStateContainer(this, new IProperty[] {TYPE});
+		return new BlockStateContainer(this, new IProperty[] {BlockInit.TYPE});
 	}
 	
 	@Override

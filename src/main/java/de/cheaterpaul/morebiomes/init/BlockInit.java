@@ -11,10 +11,13 @@ import de.cheaterpaul.morebiomes.objects.blocks.simpleblocks.ColoredGrass;
 import de.cheaterpaul.morebiomes.objects.blocks.simpleblocks.ColoredOre;
 import de.cheaterpaul.morebiomes.objects.blocks.simpleblocks.ColoredStone;
 import de.cheaterpaul.morebiomes.objects.blocks.simpleblocks.ColoredStonebrick;
+import de.cheaterpaul.morebiomes.util.handlers.EnumHandler;
 import net.minecraft.block.Block;
+import net.minecraft.block.properties.PropertyEnum;
 
 
 public class BlockInit {
+	public static final PropertyEnum<EnumHandler.EnumFlowerType> TYPE = PropertyEnum.<EnumHandler.EnumFlowerType>create("type", EnumHandler.EnumFlowerType.class);
 	
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
