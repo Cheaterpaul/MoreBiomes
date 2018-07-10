@@ -1,0 +1,91 @@
+tile.block_dirt_green.name=Green Dirt
+tile.block_dirt_red.name=Red Dirt
+tile.block_dirt_blue.name=Blue Dirt
+tile.block_dirt_yellow.name=Yellow Dirt
+
+tile.block_grass_green.name=Green Grass
+tile.block_grass_red.name=Red Grass
+tile.block_grass_blue.name=Blue Grass
+tile.block_grass_yellow.name=Yellow Grass
+
+tile.block_stone_green.name=Green Stone
+tile.block_stone_red.name=Red Stone
+tile.block_stone_blue.name=Blue Stone
+tile.block_stone_yellow.name=Yellow Stone
+
+tile.block_cobblestone_green.name=Green Cobblestone
+tile.block_cobblestone_red.name=Red Cobblestone
+tile.block_cobblestone_blue.name=Blue Cobblestone
+tile.block_cobblestone_yellow.name=Yellow Cobblestone
+
+tile.block_stonebrick_green.name=Green Stonebrick
+tile.block_stonebrick_red.name=Red Stonebrick
+tile.block_stonebrick_blue.name=Blue Stonebrick
+tile.block_stonebrick_yellow.name=Yellow Stonebrick
+
+tile.block_block_green.name=Green Block
+tile.block_block_red.name=Red Block
+tile.block_block_blue.name=Blue Block
+tile.block_block_yellow.name=Yellow Block
+
+tile.ore_overworld_yellow.name=Yellow Ore
+tile.ore_overworld_blue.name=Blue Ore
+tile.ore_overworld_green.name=Green Ore
+tile.ore_overworld_red.name=Red Ore
+
+item.ingot_red.name=Red Ingot
+item.ingot_blue.name=Blue Ingot
+item.ingot_yellow.name=Yellow Ingot
+item.ingot_green.name=Green Ingot
+
+item.axe_yellow.name=Red Axe
+item.axe_red.name=Blue Axe
+item.axe_blue.name=Yellow Axe
+item.axe_green.name=Green Axe
+
+item.pickaxe_yellow.name=Red Pickaxe
+item.pickaxe_red.name=Blue Pickaxe
+item.pickaxe_blue.name=Yellow Pickaxe
+item.pickaxe_green.name=Green PickAxe
+
+item.hoe_yellow.name=Red Hoe
+item.hoe_red.name=Blue Hoe
+item.hoe_blue.name=Yellow Hoe
+item.hoe_green.name=Green Hoe
+
+item.shovel_yellow.name=Red Shovel
+item.shovel_red.name=Blue Shovel
+item.shovel_blue.name=Yellow Shovel
+item.shovel_green.name=Green Shovel
+
+item.sword_yellow.name=Red Sword
+item.sword_red.name=Blue Sword
+item.sword_blue.name=Yellow Sword
+item.sword_green.name=Green Sword
+
+item.chestplate_yellow.name=Red Chestplate
+item.chestplate_red.name=Blue Chestplate
+item.chestplate_blue.name=Yellow Chestplate
+item.chestplate_green.name=Green Chestplate
+
+item.helmet_yellow.name=Red Helmet
+item.helmet_red.name=Blue Helmet
+item.helmet_blue.name=Yellow Helmet
+item.helmet_green.name=Green Helmet
+
+item.boots_yellow.name=Red Boots
+item.boots_red.name=Blue Boots
+item.boots_blue.name=Yellow Boots
+item.boots_green.name=Green Boots
+
+item.leggins_yellow.name=Red Leggins
+item.leggins_red.name=Blue Leggins
+item.leggins_blue.name=Yellow Leggins
+item.leggins_green.name=Green Leggins
+
+tile.colored_furnace.name=Colored Furnace
+
+container.colored_furnace=Colored Furnace
+
+itemGroup.morebiomes_blocks_tab=More Biomes Blocks
+itemGroup.morebiomes_items_tab=More Biomes Items

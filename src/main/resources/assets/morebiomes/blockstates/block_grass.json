@@ -1,0 +1,13 @@
+{
+    "variants":
+    {
+        "snowy=false,variant=yellow": { "model": "morebiomes:block_grass_yellow" },
+        "snowy=false,variant=red": { "model": "morebiomes:block_grass_red" },
+        "snowy=false,variant=blue": { "model": "morebiomes:block_grass_blue" },
+        "snowy=false,variant=green": { "model": "morebiomes:block_grass_green" },
+        "snowy=true,variant=yellow": { "model": "morebiomes:block_grass_yellow_snow" },
+        "snowy=true,variant=red": { "model": "morebiomes:block_grass_red_snow" },
+        "snowy=true,variant=blue": { "model": "morebiomes:block_grass_blue_snow" },
+        "snowy=true,variant=green": { "model": "morebiomes:block_grass_green_snow" }
+    }
+}

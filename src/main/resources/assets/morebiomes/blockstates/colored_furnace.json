@@ -1,0 +1,13 @@
+{
+	"variants":
+	{
+		"burning=false,facing=north": {  "model": "morebiomes:colored_furnace" },
+		"burning=false,facing=east": {  "model": "morebiomes:colored_furnace", "y": 90 },
+		"burning=false,facing=south": {  "model": "morebiomes:colored_furnace", "y": 180 },
+		"burning=false,facing=west": {  "model": "morebiomes:colored_furnace", "y": 270 },
+		"burning=true,facing=north": {  "model": "morebiomes:colored_furnace_lit" },
+		"burning=true,facing=east": {  "model": "morebiomes:colored_furnace_lit", "y": 90 },
+		"burning=true,facing=south": {  "model": "morebiomes:colored_furnace_lit", "y": 180 },
+		"burning=true,facing=west": {  "model": "morebiomes:colored_furnace_lit", "y": 270 }
+	}
+}

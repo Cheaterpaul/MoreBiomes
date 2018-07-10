@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "variant=yellow": { "model": "morebiomes:block_block_yellow" },
+        "variant=red": { "model": "morebiomes:block_block_red" },
+        "variant=blue": { "model": "morebiomes:block_block_blue" },
+        "variant=green": { "model": "morebiomes:block_block_green" }
+    }
+}
